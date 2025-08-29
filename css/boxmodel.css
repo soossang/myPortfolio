@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    height:1000px;
+}
+.header{
+    height:133px;
+    background-color:antiquewhite;
+    margin:5px;
+    border: 1px solid red; 
+    padding:10px;
+}
+#nav{
+    background-color:aquamarine;
+    margin:0px;
+}
+#container{
+    background-color:cornsilk;
+    margin:0px;
+}
+#footer{
+    background-color:gray;
+    margin:0px;
+}
+.parent {
+    width:500px;
+    height:300px;
+    border:1px solid black;
+    overflow:scroll;
+}
+.box{
+    width:200px;
+    height:2000px;
+    border:1px solid black;
+    padding:10px;
+    margin:10px;
+/*    box-sizing:border-box; */
+    background-image:url('../img/고양이.jpg');
+    background-attachment:scroll;
+}
